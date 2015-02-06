@@ -21,8 +21,9 @@ orders = []
   orders << Order.new("Patrick", 23)
 end
 
-puts orders
-
+["situp", "pushup", "chinup"].each do |x|
+  5.times{puts x}
+end
 
 
 
