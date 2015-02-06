@@ -25,7 +25,7 @@ end
   5.times{puts x}
 end
 
-5.times do |x|
+1.upto(5) do |x|
   puts "#{x} situp"
   puts "#{x} pushup"
   puts "#{x} chinup"
