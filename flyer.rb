@@ -6,14 +6,11 @@ class Flyer
     @name = name
     @email = email
     @miles_flown = miles_flown
+    yield self if block_given?
   end
 
   def to_s
     "#{name} (#{email}): #{miles_flown}"
-  end
-
-  def configure
-    yield self
   end
 
 end
