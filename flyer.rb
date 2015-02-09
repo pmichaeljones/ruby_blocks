@@ -12,4 +12,8 @@ class Flyer
     "#{name} (#{email}): #{miles_flown}"
   end
 
+  def configure
+    yield self
+  end
+
 end
