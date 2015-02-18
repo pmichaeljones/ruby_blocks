@@ -29,5 +29,7 @@ end
 
 puts "Total Miles Flown: #{total_miles}"
 
-promotions = {"United" => 1.5, "Delta" => 2.0, "Lufthansa" => 2.5}
+promotions = {"United" => 1.5, "Delta" => 2.0, "Lufthansa" => 2.5 }
+
+promotions.each { |airline, bonus| puts "Earn #{bonus}x miles by flying #{airline}"}
 
