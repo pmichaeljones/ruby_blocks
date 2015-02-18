@@ -14,3 +14,10 @@ class Flyer
   end
 
 end
+
+flyers = []
+1.upto(5) do |n|
+  flyers << Flyer.new("Flyer #{n}", "flyer#{n}@example.com", n * 1000)
+end
+
+puts flyers
