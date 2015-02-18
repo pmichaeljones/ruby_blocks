@@ -33,3 +33,14 @@ promotions = {"United" => 1.5, "Delta" => 2.0, "Lufthansa" => 2.5 }
 
 promotions.each { |airline, bonus| puts "Earn #{bonus}x miles by flying #{airline}"}
 
+puts "---NEW STUFF BELOW---"
+flyers.each do |flyer|
+  promotions.each do |airline, bonus|
+    puts "#{flyer.name} could earn #{flyer.miles_flown * bonus} by flying #{airline}!"
+  end
+end
+
+
+
+
+
