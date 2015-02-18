@@ -28,3 +28,6 @@ flyers.each do |flyer|
 end
 
 puts "Total Miles Flown: #{total_miles}"
+
+promotions = {"United" => 1.5, "Delta" => 2.0, "Lufthansa" => 2.5}
+
