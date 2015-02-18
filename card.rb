@@ -5,3 +5,11 @@ cards.each do |card|
 end
 
 cards.each { |card| puts "#{card} - #{card.length}"}
+
+puts "-----"
+
+cards.shuffle.each { |card| puts "#{card.upcase} - #{card.length}" }
+
+puts "-----"
+
+cards.reverse_each { |card| puts "#{card.upcase} - #{card.length}" }
